@@ -44,7 +44,7 @@ print("The largest number is:", largest_number)
 
 #################################################
 
-#Pseudocode and introduction to loops = en buyuk sayiyi bulma
+#Pseudocode and introduction to loops = en buyuk sayiyi bulma | EN: See Turkish explanation
 
 # Read three numbers
 
@@ -57,7 +57,7 @@ if number > largest_number:
     largest_number = number
 
 ###############################################
-# Read three numbers. Kullanicidan 3 sayi al ve en buyuk olanini bul.Burada max() ve min() fonksiyonlarini kullanacagiz.
+# Read three numbers. Kullanicidan 3 sayi al ve en buyuk olanini bul.Burada max() ve min() fonksiyonlarini kullanacagiz. | EN: See Turkish explanation
 number1 = int(input("Enter the first number: "))
 number2 = int(input("Enter the second number: "))
 number3 = int(input("Enter the third number: "))

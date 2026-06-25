@@ -17,7 +17,7 @@ def bmi(weight, height):
 
 
 print(bmi(352.5, 1.65))
-# Bu kod çalıştırıldığında, BMI hesaplaması için verilen ağırlık ve yükseklik değerleri geçersiz olduğu için None dönecektir.
+# Bu kod çalıştırıldığında, BMI hesaplaması için verilen ağırlık ve yükseklik değerleri geçersiz olduğu için None dönecektir. | EN: See Turkish explanation
 
 def is_a_triangle(a, b, c):
     if a + b <= c:
@@ -31,7 +31,7 @@ def is_a_triangle(a, b, c):
 
 print(is_a_triangle(1, 1, 1))
 print(is_a_triangle(1, 1, 3))
-# Bu kod çalıştırıldığında, ilk fonksiyon çağrısı bir üçgen olduğunu doğrularken, ikinci çağrı bir üçgen olmadığını belirtecektir.
+# Bu kod çalıştırıldığında, ilk fonksiyon çağrısı bir üçgen olduğunu doğrularken, ikinci çağrı bir üçgen olmadığını belirtecektir. | EN: See Turkish explanation
 
 def is_a_triangle(a, b, c):
     return a + b > c and b + c > a and c + a > b
@@ -45,7 +45,7 @@ if is_a_triangle(a, b, c):
     print('Yes, it can be a triangle.')
 else:
     print('No, it can\'t be a triangle.')
-# Bu kod, kullanıcıdan üç kenarın uzunluklarını alır ve bu kenarların bir üçgen oluşturup oluşturamayacağını kontrol eder. Eğer üçgen oluşturabiliyorsa "Yes, it can be a triangle." mesajını, oluşturamıyorsa "No, it can't be a triangle." mesajını yazdırır.
+# Bu kod, kullanıcıdan üç kenarın uzunluklarını alır ve bu kenarların bir üçgen oluşturup oluşturamayacağını kontrol eder. Eğer üçgen oluşturabiliyorsa "Yes, it can be a triangle." mesajını, oluşturamıyorsa "No, it can't be a triangle." mesajını yazdırır. | EN: See Turkish explanation
 
 def is_a_triangle(a, b, c):
     return a + b > c and b + c > a and c + a > b
@@ -59,7 +59,7 @@ if is_a_triangle(a, b, c):
     print('Yes, it can be a triangle.')
 else:
     print('No, it can\'t be a triangle.')
-# Bu kod, kullanıcıdan üç kenarın uzunluklarını alır ve bu kenarların bir üçgen oluşturup oluşturamayacağını kontrol eder. Eğer üçgen oluşturabiliyorsa "Yes, it can be a triangle." mesajını, oluşturamıyorsa "No, it can't be a triangle." mesajını yazdırır.
+# Bu kod, kullanıcıdan üç kenarın uzunluklarını alır ve bu kenarların bir üçgen oluşturup oluşturamayacağını kontrol eder. Eğer üçgen oluşturabiliyorsa "Yes, it can be a triangle." mesajını, oluşturamıyorsa "No, it can't be a triangle." mesajını yazdırır. | EN: See Turkish explanation
 # 
 def factorial_function(n):
     if n < 0:
@@ -75,7 +75,7 @@ def factorial_function(n):
 
 for n in range(1, 6):  # testing
     print(n, factorial_function(n))
-# Bu kod, 1'den 5'e kadar olan sayılar için faktöriyel hesaplaması yapar ve her bir sayının faktöriyelini yazdırır. Örneğin, 1! = 1, 2! = 2, 3! = 6, 4! = 24 ve 5! = 120 olarak hesaplanır.
+# Bu kod, 1'den 5'e kadar olan sayılar için faktöriyel hesaplaması yapar ve her bir sayının faktöriyelini yazdırır. Örneğin, 1! = 1, 2! = 2, 3! = 6, 4! = 24 ve 5! = 120 olarak hesaplanır. | EN: See Turkish explanation
 
 def fib(n):
     if n < 1:
@@ -92,4 +92,4 @@ def fib(n):
 
 for n in range(1, 10):  # testing
     print(n, "->", fib(n))    
-# Bu kod, Fibonacci dizisinin ilk 9 terimini hesaplar ve her bir terimi yazdırır. Fibonacci dizisi, her terimin kendisinden önceki iki terimin toplamı olduğu bir dizidir. Örneğin, 1, 1, 2, 3, 5, 8, 13, 21 ve 34 olarak hesaplanır.    
+# Bu kod, Fibonacci dizisinin ilk 9 terimini hesaplar ve her bir terimi yazdırır. Fibonacci dizisi, her terimin kendisinden önceki iki terimin toplamı olduğu bir dizidir. Örneğin, 1, 1, 2, 3, 5, 8, 13, 21 ve 34 olarak hesaplanır. | EN: See Turkish explanation

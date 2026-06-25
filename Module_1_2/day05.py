@@ -35,7 +35,7 @@ print("Tell me anything...")
 anything= input()
 print("You said:", anything)
 
-#terminlade yazdirmak icin, python dosya yolu  =>>  python Module_1_2\day05.py
+#terminlade yazdirmak icin, python dosya yolu  =>>  python Module_1_2\day05.py | EN: See Turkish explanation
 
 # Testing TypeError message.
 anything01 = input("Enter a number: ")

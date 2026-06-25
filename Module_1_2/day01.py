@@ -19,7 +19,7 @@ print("My name is", "Safiye", sep="*")
 
 print("My name is", "Safiye", sep="*", end="*") 
 
-#Yani, sep= değerler arasını, end= ise satır sonunu kontrol eder.
+#Yani, sep= değerler arasını, end= ise satır sonunu kontrol eder. | EN: See Turkish explanation
 
 print("My", "name", "is", "Monty", "Python.", sep="-") 
 #My name is*Safiye*My-name-is-Monty-Python.
@@ -30,7 +30,7 @@ print("My", "name", "is", sep="_", end="*")
 print("Monty", "Python.", sep="*", end="*\n")
 
 
-#Scenario  Programming***Essentials***in...Python
+#Scenario  Programming***Essentials***in...Python | EN: See Turkish explanation
 print("Programming","Essentials","in",sep="***",end="...")
 print("Python")
 

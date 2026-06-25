@@ -1,6 +1,6 @@
 #Exercise 1
 
-#What is the output of the following snippet?
+#What is the output of the following snippet? | EN: See Turkish explanation
 
 x = 5
 y = 10
@@ -10,14 +10,14 @@ print(x > y)  #false
 print(y > z)   # true
 
 #Exercise 2
-#What is the output of the following snippet?
+#What is the output of the following snippet? | EN: See Turkish explanation
 x, y, z = 5, 10, 8
 
 print(x > z)     #false
 print((y - 5) == x)  #true
 
 #Exercise 3
-#What is the output of the following snippet?
+#What is the output of the following snippet? | EN: See Turkish explanation
 
 x, y, z = 5, 10, 8
 x, y, z = z, y, x
@@ -26,7 +26,7 @@ print(x > z)
 print((y - 5) == x)
 
 #Exercise 4
-#What is the output of the following snippet?
+#What is the output of the following snippet? | EN: See Turkish explanation
 
 x = 10
 
@@ -41,7 +41,7 @@ else:
 
 
 #Exercise 5
-#What is the output of the following snippet?
+#What is the output of the following snippet? | EN: See Turkish explanation
 
 x = "1"
 
@@ -61,7 +61,7 @@ else:
 
 
 #Exercise 6
-#What is the output of the following snippet?
+#What is the output of the following snippet? | EN: See Turkish explanation
 x = 1
 y = 1.0
 z = "1"

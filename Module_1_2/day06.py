@@ -4,7 +4,7 @@
 print("Hello, " + "world!")  # Output: Hello, world!  
 
 # String repetition
-print("Hello! " * 3)  # Output: Hello! Hello! Hello!  # bu sekilde stringi 3 kere tekrarlar
+print("Hello! " * 3)  # Output: Hello! Hello! Hello!  # bu sekilde stringi 3 kere tekrarlar | EN: See Turkish explanation
 
 # String indexing  => indexini alir
 my_string = "Hello, world!"
@@ -36,9 +36,9 @@ age = 30
 print(f"My name is {name} and I am {age} years old.")  # Output: My name is Alice and I am 30 years old.
 print("My name is {} and I am {} years old.".format(name, age)) # Output: My name is Alice and I am 30 years old.   
 
-# String comparison
-print("apple" < "banana")  # Output: True (lexicographical comparison)
-print("apple" == "Apple")  # Output: False (case-sensitive comparison)
+# String comparison | EN: See Turkish explanation
+print("apple" < "banana")  # Output: True (lexicographical comparison) | EN: See Turkish explanation
+print("apple" == "Apple")  # Output: False (case-sensitive comparison) | EN: See Turkish explanation
 # String membership
 print("Hello" in my_string)  # Output: True (check if substring exists)
 print("Python" not in my_string)  # Output: True (check if substring does

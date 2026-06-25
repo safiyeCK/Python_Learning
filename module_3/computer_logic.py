@@ -1,5 +1,5 @@
 # OR operation
-# Argument A	Argument B	A OR B  veay dedigi icin bir true, false de olsa true return eder
+# Argument A	Argument B	A OR B  veay dedigi icin bir true, false de olsa true return eder | EN: See Turkish explanation
 # False     	False	   False
 # False     	True	   True          
 # True      	False	   True
@@ -95,7 +95,7 @@ print(y >> 2)  # 20 / 4 = 5     Özetle: Shift işlemleri, 2'nin kuvvetleri ile 
 # Sola kaydırma her zaman ÇARPMA yapar
 x << n  # x * (2^n) anlamına gelir
 
-# Örnekler:
+# Örnekler: | EN: See Turkish explanation
 5 << 1  # 5 * 2¹ = 5 * 2 = 10
 5 << 2  # 5 * 2² = 5 * 4 = 20  
 5 << 3  # 5 * 2³ = 5 * 8 = 40
@@ -104,7 +104,7 @@ x << n  # x * (2^n) anlamına gelir
 
 x >> n  # x ÷ (2^n) anlamına gelir (tam sayı bölme)
 
-# Örnekler:
+# Örnekler: | EN: See Turkish explanation
 20 >> 1  # 20 ÷ 2¹ = 20 ÷ 2 = 10
 20 >> 2  # 20 ÷ 2² = 20 ÷ 4 = 5
 20 >> 3  # 20 ÷ 2³ = 20 ÷ 8 = 2
@@ -123,8 +123,8 @@ x >> n  # x ÷ (2^n) anlamına gelir (tam sayı bölme)
 # 10	=, +=, -=, *=, /=, %=, &=, ^=, |=, >>=, <<=
 
 var = 17
-var_right = var >> 1  #iki buyktur isareti bol
-var_left = var << 2   #iki kucuktur isareti carp
+var_right = var >> 1  #iki buyktur isareti bol | EN: See Turkish explanation
+var_left = var << 2   #iki kucuktur isareti carp | EN: See Turkish explanation
 print(var, var_left, var_right)
 
 #exercise

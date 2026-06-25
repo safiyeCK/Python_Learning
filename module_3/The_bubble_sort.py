@@ -2,31 +2,31 @@
 # Bu metin bubble sort adlı sıralama algoritmasını açıklıyor.
 
 # Ana Açıklama:
-# Bubble Sort nedir?
+# Bubble Sort nedir? | EN: See Turkish explanation
 
 # Çok basit ama yavaş bir sıralama algoritması
 # Anlaması kolay ama verimli değil
-# Büyük listeler için kullanılmaz
-# Sadece öğrenme amaçlı kullanılır
+# Büyük listeler için kullanılmaz | EN: See Turkish explanation
+# Sadece öğrenme amaçlı kullanılır | EN: See Turkish explanation
 
-# Örnek liste
+# Örnek liste | EN: See Turkish explanation
 my_list = [8, 10, 6, 2, 4]
 
-# Komşu elemanları karşılaştır ve gerekirse yer değiştir
+# Komşu elemanları karşılaştır ve gerekirse yer değiştir | EN: See Turkish explanation
 # İlk geçiş:
 # [8, 10, 6, 2, 4] → 8 < 10 ✓ (değişiklik yok)
 # [8, 10, 6, 2, 4] → 10 > 6 ✗ (yer değiştir)
 # [8, 6, 10, 2, 4] → 10 > 2 ✗ (yer değiştir)
 # [8, 6, 2, 10, 4] → 10 > 4 ✗ (yer değiştir)
-# [8, 6, 2, 4, 10] → En büyük eleman sona geldi
+# [8, 6, 2, 4, 10] → En büyük eleman sona geldi | EN: See Turkish explanation
 
-# Bu işlem tüm liste sıralanana kadar tekrarlanır
+# Bu işlem tüm liste sıralanana kadar tekrarlanır | EN: See Turkish explanation
 def bubble_sort(liste):
     n = len(liste)
     
     for i in range(n):
         for j in range(0, n - i - 1):
-            # Komşu elemanları karşılaştır
+            # Komşu elemanları karşılaştır | EN: See Turkish explanation
             if liste[j] > liste[j + 1]:
                 # Yer değiştir (swap)
                 liste[j], liste[j + 1] = liste[j + 1], liste[j]
@@ -41,12 +41,12 @@ print("Sıralanmış:", my_list)
 
 
 # The inner life of lists
-# Listeler, Python'da veri saklamak için kullanılan en temel veri yapılarından biridir.
-# Listeler, sıralı ve değiştirilebilir (mutable) bir veri yapısıdır.
-# Listeler, farklı veri tiplerini (sayılar, metinler, diğer listeler vb.) içerebilir.
-# Listeler, indeksleme ile erişilebilir. İlk elemanın indeksi 0'dır.
-# Listeler, dinamik olarak boyutlandırılabilir. Yani, başlangıçta belirli bir boyuta sahip olsalar da, eleman ekleyebilir veya çıkarabilirsiniz.
-# Listeler, Python'da çok yaygın olarak kullanılır ve birçok yerleşik fonksiyon ve metod ile desteklenir.
+# Listeler, Python'da veri saklamak için kullanılan en temel veri yapılarından biridir. | EN: See Turkish explanation
+# Listeler, sıralı ve değiştirilebilir (mutable) bir veri yapısıdır. | EN: See Turkish explanation
+# Listeler, farklı veri tiplerini (sayılar, metinler, diğer listeler vb.) içerebilir. | EN: See Turkish explanation
+# Listeler, indeksleme ile erişilebilir. İlk elemanın indeksi 0'dır. | EN: See Turkish explanation
+# Listeler, dinamik olarak boyutlandırılabilir. Yani, başlangıçta belirli bir boyuta sahip olsalar da, eleman ekleyebilir veya çıkarabilirsiniz. | EN: See Turkish explanation
+# Listeler, Python'da çok yaygın olarak kullanılır ve birçok yerleşik fonksiyon ve metod ile desteklenir. | EN: See Turkish explanation
 
 list_1 = [1]
 list_2 = list_1
@@ -62,36 +62,36 @@ print(list_2)
 
 # Copying some part of the list.
 my_list = [10, 8, 6, 4, 2]
-new_list = my_list[1:3]  # yani 1, indexinden 3. indekse kadar olan elemanları alır. Basladigi index alir bitis index almaz.
+new_list = my_list[1:3]  # yani 1, indexinden 3. indekse kadar olan elemanları alır. Basladigi index alir bitis index almaz. | EN: See Turkish explanation
 print(new_list)  # Output: [8, 6]
 
 # Slices - negative indices
 my_list = [10, 8, 6, 4, 2] #negatifler -1 den başlar.
-new_list = my_list[-4:-2]  # yani -4, indexinden -2. indekse kadar olan elemanları alır.
+new_list = my_list[-4:-2]  # yani -4, indexinden -2. indekse kadar olan elemanları alır. | EN: See Turkish explanation
 print(new_list)  # Output: [8, 6]
 
 # Slices: continued
 my_list = [10, 8, 6, 4, 2]
-new_list = my_list[1:]  # 1. indeksten sonrasını alır. o index dahil.
+new_list = my_list[1:]  # 1. indeksten sonrasını alır. o index dahil. | EN: See Turkish explanation
 print(new_list)  # Output: [8, 6, 4, 2] 
-new_list = my_list[:3]  # 3. indekse kadar olan elemanları alır.
+new_list = my_list[:3]  # 3. indekse kadar olan elemanları alır. | EN: See Turkish explanation
 print(new_list)  # Output: [10, 8, 6]
 
 # Slicing with negative indices
 my_list = [10, 8, 6, 4, 2]  
-new_list = my_list[-3:]  # -3. indeksten sonrasını alır.
+new_list = my_list[-3:]  # -3. indeksten sonrasını alır. | EN: See Turkish explanation
 print(new_list)  # Output: [6, 4, 2]
-new_list = my_list[:-2]  # -2. indekse kadar olan elemanları alır.
+new_list = my_list[:-2]  # -2. indekse kadar olan elemanları alır. | EN: See Turkish explanation
 print(new_list)  # Output: [10, 8, 6]   
 
 # The in and not in operators
-# The in operator checks if an element is present in a list. yani in ile sordugu elaman listede var mi yok mu.
+# The in operator checks if an element is present in a list. yani in ile sordugu elaman listede var mi yok mu. | EN: See Turkish explanation
 my_list = [10, 8, 6, 4, 2]
 print(6 in my_list)  # Output: True
 print(5 in my_list)  # Output: False
 
-# Lists - some simple programs yani listelerle basit programlar nasil yazilir 
-# Program to find the maximum element in a list
+# Lists - some simple programs yani listelerle basit programlar nasil yazilir | EN: See Turkish explanation
+# Program to find the maximum element in a list | EN: See Turkish explanation
 def find_maximum(my_list):
     if not my_list:  # Check if the list is empty
         return None
@@ -116,7 +116,7 @@ if found:
 else:
     print("absent")
 
-# Lists in lists yani listeler icinde listeler
+# Lists in lists yani listeler icinde listeler | EN: See Turkish explanation
 # Lists can contain other lists, creating a nested structure.
 nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 # Accessing elements in a nested list

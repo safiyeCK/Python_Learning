@@ -8,18 +8,18 @@ print(2 + 3 * 4 - 5 + 6 - 7) # Output: 8
 print(9 % 6 % 2)
 print(9 % 4 % 2)  # Output: 1
 print(10% 4 % 2)  # Output: 0
-# Modülüs (modulus, %) işlemi, bir sayının başka bir sayıya bölümünden kalanı bulur. Yani a % b ifadesi, a sayısı b sayısına bölündüğünde kalan değeri verir.
+# Modülüs (modulus, %) işlemi, bir sayının başka bir sayıya bölümünden kalanı bulur. Yani a % b ifadesi, a sayısı b sayısına bölündüğünde kalan değeri verir. | EN: See Turkish explanation
 
 # Örneğin:
 
-# 9 % 6 işlemi: 9’u 6’ya böldüğümüzde bölüm 1, kalan 3’tür. Sonuç 3 olur.
-# Sonra bu kalan tekrar % 2 işlemine girer: 3 % 2 işlemi, 3’ü 2’ye böldüğümüzde kalan 1’dir
+# 9 % 6 işlemi: 9’u 6’ya böldüğümüzde bölüm 1, kalan 3’tür. Sonuç 3 olur. | EN: See Turkish explanation
+# Sonra bu kalan tekrar % 2 işlemine girer: 3 % 2 işlemi, 3’ü 2’ye böldüğümüzde kalan 1’dir | EN: See Turkish explanation
 
 
 #Operators and their bindings: exponentiation
 
 print(2 ** 3 ** 2)  # Output: 512 (3^2 = 9, then 2^9 = 512)
-print(2 ** 3 ** 2 + 1)  # Output: 513 (adding 1 to the previous result) => islemler sagdan sola dogru, yani 3**2 once yapilir, sonra 2**9 yapilir
+print(2 ** 3 ** 2 + 1)  # Output: 513 (adding 1 to the previous result) => islemler sagdan sola dogru, yani 3**2 once yapilir, sonra 2**9 yapilir | EN: See Turkish explanation
 print(2 ** 3 ** 2 - 1)  # Output: 511
 
 #List of priorities
@@ -29,8 +29,8 @@ print(2 ** 3 ** 2 - 1)  # Output: 511
 # 4. Multiplication, division, floor division, and modulus *, /, //, %
 print(2 * 3 % 5) # Output: 1 (2 * 3 = 6, then 6 % 5 = 1)
 print(2* 3 // 5) # Output: 0 (2 * 3 = 6, then 6 // 5 = 1) // 6 // 5 işlemi, 6’yı 5’e böler. Normalde 6 / 5 = 1.2 olur.
-# taban bolme operatörü ondalık kısmı atar ve sadece tam kısmı alır.
-# Yani 6 // 5 sonucu 1 olur.
+# taban bolme operatörü ondalık kısmı atar ve sadece tam kısmı alır. | EN: See Turkish explanation
+# Yani 6 // 5 sonucu 1 olur. | EN: See Turkish explanation
 
 #Both operators (* and %) have the same priority,
 
@@ -55,11 +55,11 @@ print((5 * ((25 % 13) + 100) / (2 * 13)) // 2) # Output: 10  # Explanation:
 # 6. Understanding operator precedence is crucial for writing correct and efficient Python code.
 
 #Temel çıkarımlar
-# 1. Python, en yüksek önceliğe parantezlerin sahip olduğu operatör önceliği kurallarına uyar.
+# 1. Python, en yüksek önceliğe parantezlerin sahip olduğu operatör önceliği kurallarına uyar. | EN: See Turkish explanation
 # 2. Üs alma (exponentiation) işlemi sağdan sola doğru değerlendirilir (sağdan bağlanır).
 # 3. Çarpma, bölme, taban bölme ve modülüs işlemleri aynı önceliğe sahiptir ve soldan sağa doğru değerlendirilir.
-# 4. Tekli (unary) operatörler (+, -), çarpma ve bölmeden daha düşük önceliğe sahiptir.
-# 5. Parantezler kullanılarak işlemlerin sırası değiştirilebilir ve belirli hesaplamaların önce yapılması sağlanabilir.
+# 4. Tekli (unary) operatörler (+, -), çarpma ve bölmeden daha düşük önceliğe sahiptir. | EN: See Turkish explanation
+# 5. Parantezler kullanılarak işlemlerin sırası değiştirilebilir ve belirli hesaplamaların önce yapılması sağlanabilir. | EN: See Turkish explanation
 # 6. Operatör önceliğini anlamak, doğru ve verimli Python kodu yazmak için çok önemlidir.
 
 print((2 ** 4), (2 * 4.), (2 * 4)) # Output: 16 8.0 8

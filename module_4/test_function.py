@@ -15,8 +15,8 @@ def message():
     print("Enter a value: ")
 
 message()   # fonksiyonun cagrilmasi
-value = input()  # kullanicidan deger alinir
-print("You entered:", value)  # kullanicinin girdigi deger ekrana yazdirilir
+value = input()  # kullanicidan deger alinir | EN: See Turkish explanation
+print("You entered:", value)  # kullanicinin girdigi deger ekrana yazdirilir | EN: See Turkish explanation
 
 print("We start here.")
 print("We end here.")
@@ -33,7 +33,7 @@ message()
 c = int(input())
 
 
-def hello(name):    # defining a function yani fonksiyon tanimlama parametre alir.
+def hello(name):    # defining a function yani fonksiyon tanimlama parametre alir. | EN: See Turkish explanation
     print("Hello,", name)    # body of the function
 
 

@@ -1,5 +1,5 @@
 #Variables - data-shaped boxes
-# Variables are used to store data in a program
+# Variables are used to store data in a program | EN: See Turkish explanation
 # Variables can be created by assigning a value to a name
 # Variable names can contain letters, numbers, and underscores, but cannot start with a number
 # Variable names are case-sensitive
@@ -17,16 +17,16 @@
 # Variable names should not be too similar to built-in functions or modules
 # Variable names should not be too similar to reserved keywords
       
-# Değişkenler, programda veri saklamak için kullanılır.
+# Değişkenler, programda veri saklamak için kullanılır. | EN: See Turkish explanation
 # Bir değişken oluşturmak için bir isme değer atamanız yeterlidir.
-# Değişken isimlerinde harf, rakam ve alt çizgi (_) kullanılabilir; ancak isim rakamla başlayamaz.
-# Değişken isimleri büyük/küçük harfe duyarlıdır (örneğin, sayi ve Sayi farklı değişkenlerdir).
+# Değişken isimlerinde harf, rakam ve alt çizgi (_) kullanılabilir; ancak isim rakamla başlayamaz. | EN: See Turkish explanation
+# Değişken isimleri büyük/küçük harfe duyarlıdır (örneğin, sayi ve Sayi farklı değişkenlerdir). | EN: See Turkish explanation
 # İsimler açıklayıcı ve anlamlı olmalıdır.
-# Python’daki özel anahtar kelimeler (if, for, class gibi) değişken ismi olarak kullanılmamalıdır.
+# Python’daki özel anahtar kelimeler (if, for, class gibi) değişken ismi olarak kullanılmamalıdır. | EN: See Turkish explanation
 # Değişken isimlerinde boşluk veya özel karakterler bulunmamalıdır.
-# Python’da yaygın olarak kullanılan isimlendirme biçimi snake_case’dir: tüm harfler küçük ve kelimeler alt çizgiyle ayrılır (örneğin, kullanici_adi).
-# Değişken isimleri çok uzun veya çok kısa olmamalı, çok genel ya da çok özel olmamalıdır.
-# Yerleşik fonksiyon veya modül isimlerine (list, str gibi) benzer isimler kullanılmamalıdır.
+# Python’da yaygın olarak kullanılan isimlendirme biçimi snake_case’dir: tüm harfler küçük ve kelimeler alt çizgiyle ayrılır (örneğin, kullanici_adi). | EN: See Turkish explanation
+# Değişken isimleri çok uzun veya çok kısa olmamalı, çok genel ya da çok özel olmamalıdır. | EN: See Turkish explanation
+# Yerleşik fonksiyon veya modül isimlerine (list, str gibi) benzer isimler kullanılmamalıdır. | EN: See Turkish explanation
 # Birbirine çok benzeyen değişken isimlerinden kaçınılmalıdır.
 
 var = 1

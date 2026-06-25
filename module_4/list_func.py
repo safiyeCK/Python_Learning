@@ -5,20 +5,20 @@ def list_sum(lst):
         s += elem
     
     return s
-# yani bu fonksiyon bir liste içindeki sayıların toplamını döndürür.
+# yani bu fonksiyon bir liste içindeki sayıların toplamını döndürür. | EN: See Turkish explanation
 def list_average(lst):
     if len(lst) == 0:
-        return None  # Boş liste için None döndür
+        return None  # Boş liste için None döndür | EN: See Turkish explanation
     
     total = list_sum(lst)
     average = total / len(lst)
     
     return average
-# yani bu fonksiyon bir liste içindeki sayıların ortalamasını döndürür.
+# yani bu fonksiyon bir liste içindeki sayıların ortalamasını döndürür. | EN: See Turkish explanation
 
 def list_max(lst):
     if len(lst) == 0:
-        return None  # Boş liste için None döndür
+        return None  # Boş liste için None döndür | EN: See Turkish explanation
     
     max_value = lst[0]
     
@@ -27,10 +27,10 @@ def list_max(lst):
             max_value = elem
     
     return max_value
-# yani bu fonksiyon bir liste içindeki en büyük sayıyı döndürür.
+# yani bu fonksiyon bir liste içindeki en büyük sayıyı döndürür. | EN: See Turkish explanation
 def list_min(lst):
     if len(lst) == 0:
-        return None  # Boş liste için None döndür
+        return None  # Boş liste için None döndür | EN: See Turkish explanation
     
     min_value = lst[0]
     
@@ -39,15 +39,15 @@ def list_min(lst):
             min_value = elem
     
     return min_value
-# yani bu fonksiyon bir liste içindeki en küçük sayıyı döndürür.
+# yani bu fonksiyon bir liste içindeki en küçük sayıyı döndürür. | EN: See Turkish explanation
 def list_reverse(lst):
     reversed_list = []
     
     for elem in lst:
-        reversed_list.insert(0, elem)  # Her elemanı başa ekle
+        reversed_list.insert(0, elem)  # Her elemanı başa ekle | EN: See Turkish explanation
     
     return reversed_list
-# yani bu fonksiyon bir listeyi tersine çevirir.
+# yani bu fonksiyon bir listeyi tersine çevirir. | EN: See Turkish explanation
 
 # Effects and results: lists and functions - continued
 def list_contains(lst, value):
@@ -55,7 +55,7 @@ def list_contains(lst, value):
         if elem == value:
             return True  # Değer bulundu
     return False  # Değer bulunamadı
-# yani bu fonksiyon bir listenin belirli bir değeri içerip içermediğini kontrol eder.
+# yani bu fonksiyon bir listenin belirli bir değeri içerip içermediğini kontrol eder. | EN: See Turkish explanation
 def list_count(lst, value):
     count = 0
     
@@ -64,7 +64,7 @@ def list_count(lst, value):
             count += 1  # Değer bulunduğunda sayacı artır
     
     return count
-# yani bu fonksiyon bir listenin belirli bir değerden kaç kez içerdiğini sayar.
+# yani bu fonksiyon bir listenin belirli bir değerden kaç kez içerdiğini sayar. | EN: See Turkish explanation
 
 #
 def is_year_leap(year):
@@ -117,7 +117,7 @@ for i in range(len(test_years)):
 		print("OK")
 	else:
 		print("Failed")
-# yani bu fonksiyon bir yıl ve ay için o ayın kaç gün olduğunu döndürür.
+# yani bu fonksiyon bir yıl ve ay için o ayın kaç gün olduğunu döndürür. | EN: See Turkish explanation
 
 def is_year_leap(year):
     # Artık yıl kontrolü
@@ -154,14 +154,14 @@ def day_of_year(year, month, day):
     if day < 1 or day > max_days:
         return None
     
-    # Yılın başından itibaren günleri hesapla
+    # Yılın başından itibaren günleri hesapla | EN: See Turkish explanation
     total_days = 0
     
     # Önceki ayların günlerini topla
     for m in range(1, month):
         total_days += days_in_month(year, m)
     
-    # Bu ayın günlerini ekle
+    # Bu ayın günlerini ekle | EN: See Turkish explanation
     total_days += day
     
     return total_days
@@ -169,7 +169,7 @@ def day_of_year(year, month, day):
 # Test vakaları
 print(day_of_year(2000, 12, 31))  # 366 (artık yıl)
 print(day_of_year(1999, 12, 31))  # 365 (normal yıl)
-print(day_of_year(2000, 1, 1))    # 1 (yılın ilk günü)
+print(day_of_year(2000, 1, 1))    # 1 (yılın ilk günü) | EN: See Turkish explanation
 print(day_of_year(2000, 2, 29))   # 60 (artık yılda şubat ayının 29'u)
 print(day_of_year(1999, 2, 29))   # None (normal yılda şubat 29 yok)
 print(day_of_year(2000, 13, 1))   # None (geçersiz ay)

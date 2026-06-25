@@ -53,10 +53,10 @@ print(a)
 a = 1          # Global 'a' değişkeni 1 olarak tanımlanır
 
 def fun():
-    global a   # Fonksiyon içinde global 'a' değişkenini kullanacağımızı belirtiriz
+    global a   # Fonksiyon içinde global 'a' değişkenini kullanacağımızı belirtiriz | EN: See Turkish explanation
     a = 2      # Global 'a' değişkenini 2 olarak değiştiririz
     print(a)   # 2 yazdırır
 
 a = 3          # Global 'a' değişkenini 3 olarak değiştiririz
 fun()          # Fonksiyonu çağırırız
-print(a)       # Son durumu yazdırırız
+print(a)       # Son durumu yazdırırız | EN: See Turkish explanation

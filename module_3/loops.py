@@ -17,7 +17,7 @@ number = int(input("Enter a number or type -1 to stop: "))
 
 # If the number is not equal to -1, continue.
 while number != -1:
-    # Is number larger than largest_number?
+    # Is number larger than largest_number? | EN: See Turkish explanation
     if number > largest_number:
         # Yes, update largest_number.
         largest_number = number
@@ -49,10 +49,10 @@ print("""
 +================================+
 """)
 
-# Kullanıcıdan tahmin al
+# Kullanıcıdan tahmin al | EN: See Turkish explanation
 user_number = int(input("Enter your guess: "))
 
-# While döngüsü - doğru tahmin edilene kadar devam et
+# While döngüsü - doğru tahmin edilene kadar devam et | EN: See Turkish explanation
 while user_number != secret_number:
     print("Ha ha! You're stuck in my loop!")
     user_number = int(input("Enter your guess: "))

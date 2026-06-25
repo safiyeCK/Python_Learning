@@ -16,7 +16,7 @@ import time
 # 1'den 5'e kadar Mississippi sayma döngüsü
 for i in range(1, 6):  # 1, 2, 3, 4, 5
     print(i, "Mississippi")
-    time.sleep(1)  # 1 saniye bekle
+    time.sleep(1)  # 1 saniye bekle | EN: See Turkish explanation
 
 # Final mesaj
 print("Ready or not, here I come!")
@@ -89,20 +89,20 @@ while True:
         print("You've successfully left the loop.")
         break
     
- # Girilen kelimeyi yazdırmıyoruz, sadece döngü devam ediyor   
+ # Girilen kelimeyi yazdırmıyoruz, sadece döngü devam ediyor | EN: See Turkish explanation
 
 
-# Sesli harf yiyici program
+# Sesli harf yiyici program | EN: See Turkish explanation
 
-# Kullanıcıdan kelime al
+# Kullanıcıdan kelime al | EN: See Turkish explanation
 user_word = input("Enter a word: ")
 
-# Kelimeyi büyük harfe çevir
+# Kelimeyi büyük harfe çevir | EN: See Turkish explanation
 user_word = user_word.upper()
 
-# Her harf için döngü
+# Her harf için döngü | EN: See Turkish explanation
 for letter in user_word:
-    # Sesli harfleri kontrol et ve atla
+    # Sesli harfleri kontrol et ve atla | EN: See Turkish explanation
     if letter == 'A':
         continue
     elif letter == 'E':
@@ -114,26 +114,26 @@ for letter in user_word:
     elif letter == 'U':
         continue
     
-    # Sesli harf değilse yazdır
+    # Sesli harf değilse yazdır | EN: See Turkish explanation
     print(letter)
 
 
 # ...existing code...
 
-# Geliştirilmiş sesli harf yiyici program
+# Geliştirilmiş sesli harf yiyici program | EN: See Turkish explanation
 
-# Kullanıcıdan kelime al
+# Kullanıcıdan kelime al | EN: See Turkish explanation
 user_word = input("Enter a word: ")
 
-# Kelimeyi büyük harfe çevir
+# Kelimeyi büyük harfe çevir | EN: See Turkish explanation
 user_word = user_word.upper()
 
 # Boş string oluştur
 word_without_vowels = ""
 
-# Her harf için döngü
+# Her harf için döngü | EN: See Turkish explanation
 for letter in user_word:
-    # Sesli harfleri kontrol et ve atla
+    # Sesli harfleri kontrol et ve atla | EN: See Turkish explanation
     if letter == 'A':
         continue
     elif letter == 'E':
@@ -145,10 +145,10 @@ for letter in user_word:
     elif letter == 'U':
         continue
     
-    # Sesli harf değilse string'e ekle
+    # Sesli harf değilse string'e ekle | EN: See Turkish explanation
     word_without_vowels = word_without_vowels + letter
 
-# Sonucu yazdır
+# Sonucu yazdır | EN: See Turkish explanation
 print(word_without_vowels)
 
 #The for loop and the else branch
@@ -175,42 +175,42 @@ blocks = int(input("Enter the number of blocks: "))
 height = 0
 layer = 1
 
-# While döngüsü ile katman katman kontrol et
+# While döngüsü ile katman katman kontrol et | EN: See Turkish explanation
 while blocks >= layer:
-    blocks -= layer  # Mevcut katman için blokları kullan
+    blocks -= layer  # Mevcut katman için blokları kullan | EN: See Turkish explanation
     height += 1      # Yüksekliği artır
-    layer += 1       # Bir sonraki katman daha fazla blok gerektirir
+    layer += 1       # Bir sonraki katman daha fazla blok gerektirir | EN: See Turkish explanation
 
 print("The height of the pyramid:", height)   
 
 # Görev Açıklaması
-# Bu görevde Collatz Hipotezi (3n+1 problemi) adını taşıyan ünlü matematik problemini kodlayacaksınız.
+# Bu görevde Collatz Hipotezi (3n+1 problemi) adını taşıyan ünlü matematik problemini kodlayacaksınız. | EN: See Turkish explanation
 
-# Collatz Hipotezi Kuralları:
+# Collatz Hipotezi Kuralları: | EN: See Turkish explanation
 
 # Pozitif bir sayı c0 ile başlayın
 # Eğer sayı çift ise: c0 = c0 ÷ 2
-# Eğer sayı tek ise: c0 = 3 × c0 + 1
+# Eğer sayı tek ise: c0 = 3 × c0 + 1 | EN: See Turkish explanation
 # c0 ≠ 1 olduğu sürece adım 2'ye dön
-# Hipotez: Her sayı sonunda 1'e ulaşır
-# Programın yapması gerekenler:
+# Hipotez: Her sayı sonunda 1'e ulaşır | EN: See Turkish explanation
+# Programın yapması gerekenler: | EN: See Turkish explanation
 
-# Kullanıcıdan bir doğal sayı alın
-# Collatz kurallarını uygulayın
+# Kullanıcıdan bir doğal sayı alın | EN: See Turkish explanation
+# Collatz kurallarını uygulayın | EN: See Turkish explanation
 # Tüm ara değerleri yazdırın
 # Kaç adım gerektiğini sayın
 
-# Collatz Hipotezi (3n+1 problemi)
+# Collatz Hipotezi (3n+1 problemi) | EN: See Turkish explanation
 
 c0 = int(input("Enter a natural number: "))
 steps = 0
 
-# c0 1'e eşit olmadığı sürece devam et
+# c0 1'e eşit olmadığı sürece devam et | EN: See Turkish explanation
 while c0 != 1:
     # Eğer çift ise 2'ye böl
     if c0 % 2 == 0:
         c0 = c0 // 2
-    # Eğer tek ise 3 ile çarp ve 1 ekle
+    # Eğer tek ise 3 ile çarp ve 1 ekle | EN: See Turkish explanation
     else:
         c0 = 3 * c0 + 1
     
@@ -224,7 +224,7 @@ print("steps =", steps)
 
 # c0 % 2 == 0: Sayının çift olup olmadığını kontrol eder
 # c0 // 2: Tam sayı bölme işlemi
-# 3 * c0 + 1: Tek sayılar için Collatz kuralı
+# 3 * c0 + 1: Tek sayılar için Collatz kuralı | EN: See Turkish explanation
 # steps: Kaç adımda 1'e ulaşıldığını sayar
 # Döngü c0 = 1 olduğunda durur
 
@@ -246,7 +246,7 @@ for i in range(1, 11):
 # for ch in "john.smith@pythoninstitute.org":
 #     if ch == "@":
 #         # Line of code.
-#         print("Found @ symbol")
+#         print("Found @ symbol") | EN: See Turkish explanation
 #     # Line of code.
 #     pass
 

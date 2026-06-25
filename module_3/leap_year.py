@@ -12,7 +12,7 @@ else:
     print(year, "is not a leap year.")
 
 
-# Artık yıl kuralları (Gregorian takvimi - 1582'den sonra):
+# Artık yıl kuralları (Gregorian takvimi - 1582'den sonra): | EN: See Turkish explanation
 
 # Yıl 4'e bölünmüyorsa → Common year (normal yıl)
 # Yıl 4'e bölünüyor ama 100'e bölünmüyorsa → Leap year (artık yıl)
